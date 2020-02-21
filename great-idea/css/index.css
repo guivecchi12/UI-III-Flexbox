@@ -70,12 +70,13 @@ body{
 	margin: auto;
 	font-size:18px;
 }
-header{
+
+.services header{
 	display:flex;
 	margin-bottom:10%;
 	justify-content: center;
 }
-nav{
+.services nav{
 	display:flex;
 	justify-content:space-between;
 	align-items: center;
@@ -86,7 +87,7 @@ nav{
 	width:900px;
 	
 }
-nav div{
+.services nav div{
 	width:55%;
 	display:flex;
 }
@@ -116,54 +117,6 @@ img.logo{
 .top-section p{
 	margin-bottom: 40px;
 }
-
-section.first{
-	font-family: 'Bangers';
-	font-style: normal;
-	font-weight: 400;
-	display:inline-block;
-	font-size:75px;
-	width: 20%;
-	text-align:center;
-	padding-bottom: 5px;
-	margin:5% 10%;
-	margin-right:25%;
-
-}
-.first span:first-child{
-	padding-left:50%;
-}
-.first span:nth-child(2){
-	padding-left:20%;
-}
-img{
-	width: 310px;
-	margin:0;	
-}
-section.second{
-	border-top:2px solid black;
-	border-bottom: 2px solid rgba(8, 8, 8, 0.5);
-	margin-bottom: 50px;
-}
-h3{
-	font-family: 'Bangers';
-	font-style: normal;
-	font-weight: 400;
-}
-section div{
-	display:inline-block;
-	margin:30px 0;
-}
-div.top{
-	width:49%;
-}
-.middle-img{
-	width:100%;
-}
-div.bottom{
-	width: 32%;
-}
-
 .box-section{
 	display: flex;
 	flex-wrap: wrap;
@@ -221,3 +174,80 @@ footer.copyright{
 	font-size:15px;
 	font-weight: bold;
 }
+
+/* Index Specific CSS */
+
+header.index{
+	margin:auto;
+	height:100px;
+	width:900px;
+}
+.index nav{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:auto;
+	position:fixed;
+	background:lightskyblue;
+	padding:10px 0;
+	width:900px;
+	height: 80px;
+}
+.index .logo{
+	width:30%;
+	order:1;
+	padding-right:0;
+	padding-left:10%;
+}
+.index nav div{
+	display:flex;
+	justify-content: space-between;
+	width:55%;
+}
+section.first{
+	font-family: 'Bangers';
+	font-style: normal;
+	font-weight: 400;
+	display:inline-block;
+	font-size:75px;
+	width: 20%;
+	text-align:center;
+	padding-bottom: 5px;
+	margin:5% 10%;
+	margin-right:25%;
+
+}
+.first span:first-child{
+	padding-left:50%;
+}
+.first span:nth-child(2){
+	padding-left:20%;
+}
+img{
+	width: 310px;
+	margin:0;	
+}
+section.second{
+	border-top:2px solid black;
+	border-bottom: 2px solid rgba(8, 8, 8, 0.5);
+	margin-bottom: 50px;
+}
+h3{
+	font-family: 'Bangers';
+	font-style: normal;
+	font-weight: 400;
+}
+section div{
+	display:inline-block;
+	margin:30px 0;
+}
+div.top{
+	width:49%;
+}
+.middle-img{
+	width:100%;
+}
+div.bottom{
+	width: 32%;
+}
+
